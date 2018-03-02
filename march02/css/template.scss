@@ -1,0 +1,86 @@
+$keycolor: hsl(181, 100%, 41%);
+$white: hsl(0, 0%, 96%);
+$black: hsl(0, 0%, 0%);
+
+header{
+    padding: 10vw 2vw;
+    background-color: $keycolor;
+    text-align: center;
+    color: $white; 
+}
+
+a:link {
+    color: inherit; 
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: $white;
+}
+
+a:active {
+    color: purple;
+}
+
+body {
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+}
+
+.btn {
+    background-color: transparentize($black, .75);
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+a.btn:hover {
+    background-color: transparentize($black, .90);
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 100px;
+}
+
+header div {
+    width: 50%;
+    padding: 5vw;
+    background-color: $keycolor;
+    border-width: 3px 1px;
+    border-style: double solid;
+    border-color: $white;
+    margin: 0 auto;
+}
+
+#features {
+    text-align: center;
+}
+
+#features ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    li {
+        width: 25%;
+        padding: 40px;
+        border: 1px solid $black;
+        margin-left: -1px;
+        margin-top: -1px;
+    }
+}
+i{
+    font-size: 300%;
+    color: $keycolor;
+}

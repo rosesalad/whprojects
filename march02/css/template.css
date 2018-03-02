@@ -1,0 +1,84 @@
+header {
+  padding: 10vw 2vw;
+  background-color: darkturquoise;
+  text-align: center;
+  color: whitesmoke;
+}
+
+a:link {
+  color: inherit;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+a:active {
+  color: purple;
+}
+
+body {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: all 200ms;
+}
+
+a.btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 100px;
+}
+
+header div {
+  width: 50%;
+  padding: 5vw;
+  background-color: darkturquoise;
+  border-width: 3px 1px;
+  border-style: double solid;
+  border-color: whitesmoke;
+  margin: 0 auto;
+}
+
+#features {
+  text-align: center;
+}
+
+#features ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+}
+
+#features ul li {
+  width: 25%;
+  padding: 40px;
+  border: 1px solid black;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+
+i {
+  font-size: 300%;
+  color: darkturquoise;
+}
+/*# sourceMappingURL=template.css.map */
